@@ -1,0 +1,51 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #00000093;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create-form {
+  position: relative;
+  padding: 20px;
+  background: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-label {
+  display: flex;justify-content: space-between;
+  gap: 10px;
+}
+.closeBtn {
+  position: absolute;
+  color: red;
+  top: 0;
+  right: 0;
+  transform: translate(100%,-100%);
+}
